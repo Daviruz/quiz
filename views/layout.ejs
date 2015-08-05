@@ -11,20 +11,19 @@
     <link rel="stylesheet"
           type="text/css"
           media="only screen and (max-width: 480px)"
-          href="/stylesheet/smartphone.css" />                      
+          href="/stylesheet/smartphone.css" />
   </head>
   <body>
     <div id="page-wrap">
-      <h1>Bienvenido a <%= title %></h1>
-      <p>El portal donde podrás crear tus propios juegos!</p>
-      <p><a href="/quizes/question">Comience a jugar</a></p>
       <header>
         <h2>Quiz: El juego de las preguntas</h2>
       </header>
+
       <nav class="main" id="n1" role="navigation">
         <span><a href="/">Inicio</a></span>
-        <span><a href="/quizes/preguntas">Preguntas</a></span>
+        <span><a href="/quizes/question">Preguntas</a></span>
       </nav>
+
       <section class="main" id="s1">
         <%- body %>
       </section>
